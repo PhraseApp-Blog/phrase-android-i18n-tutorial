@@ -1,1 +1,1 @@
-# phrase-android-i18n-tutorial-
+# phrase-android-i18n-tutorial
