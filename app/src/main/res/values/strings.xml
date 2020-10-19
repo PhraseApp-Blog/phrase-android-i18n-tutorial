@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">WX</string>
+
+    <!-- Generics -->
+    <!-- description: Button content [CHAR LIMIT=12] -->
+    <string name="abc_save">Save</string>
+    <!-- description: Button content [CHAR LIMIT=12] -->
+    <string name="abc_cancel">Cancel</string>
+    <!-- description: Label to describe difficulty of an exercise [CHAR LIMIT=20] -->
+    <string name="abc_difficulty">Difficulty</string>
+
+    <!-- description: Records [CHAR LIMIT=12] -->
+    <string name="record_activity_title">Record</string>
+
+    <!-- description: Work outs [CHAR LIMIT=20] -->
+    <string name="sample_back_squat">Back squat</string>
+
+    <!-- description: Welcome screen title -->
+    <string name="wx_welcome_title">Welcome to WX</string>
+    <!-- description: Welcome screen summary -->
+    <string name="wx_welcome_summary">WX lets you register your Crossfit workouts anytime.\n\nJust choose the exercise, enter weight and that\u2019s it.</string>
+
+    <string name="wx_welcome_summary_addition">Let\u2019s WX help you to identify how the cookies 🍪 are being burned.\n🥵🔥🔥💪💪🥵\n😜😜</string>
+
+    <!-- description: Button content [CHAR LIMIT=12] -->
+    <string name="button_gotit">Got it</string>
+
+    <!-- Menu Language Preferences -->
+    <!-- description: Menu button content -->
+    <string name="menu_action_settings">Settings</string>
+    <!-- description: Preference Header content -->
+    <string name="language_header">Language</string>
+    <!-- description: Preference Header content -->
+    <string name="custom_language">Use custom language</string>
+    <!-- description: Preference Header content -->
+    <string name="drop_down_custom_language_title">Custom Language</string>
+    <!-- description: Preference Header content -->
+    <string name="drop_down_custom_language_summary">Tap to select the desired language</string>
+
+    <!-- description: Preference Header content -->
+    <string name="unit_header">Unit</string>
+    <string name="check_box_unit_title">Preferred Basic Unit</string>
+    <!-- description: Preference Header content -->
+    <string name="check_box_unit_summary">Tap to select the desired unit</string>
+
+
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff id="language" example="English, United States">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted.</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
