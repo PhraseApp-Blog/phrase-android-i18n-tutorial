@@ -1,6 +1,9 @@
 <resources>
     <string name="abc_save">Save (en-GB)</string>
     <string name="abc_cancel">Cancel (en-GB)</string>
+    <string name="abc_difficulty">Difficulty (en-GB)</string>
+    <string name="record_activity_title">Record (en-GB)</string>
+    <string name="sample_back_squat">Back squat (en-GB)</string>
     <string name="wx_welcome_title">Welcome to WX (en-GB)</string>
     <string name="wx_welcome_summary">WX lets you register your Crossfit workouts anytime.\n\nJust choose the exercise, enter weight and that\u2019s it. (en-GB)</string>
     <string name="wx_welcome_summary_addition">Let\u2019s WX help you to identify how the cookies 🍪 are being burned.\n🥵🔥🔥💪💪🥵\n😜😜 (en-GB)</string>
@@ -27,7 +30,7 @@
         <item>Pull up (en-GB)</item>
         <item>Burpee (en-GB)</item>
     </string-array>
-    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff id="language" example="English, United States">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (en-GB)</string>
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff example="English, United States" id="language">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (en-GB)</string>
     <string name="yes">YES (en-GB)</string>
     <string name="no">NO (en-GB)</string>
 </resources>

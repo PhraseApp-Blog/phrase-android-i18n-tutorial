@@ -6,6 +6,14 @@
     <string name="abc_save">Save</string>
     <!-- description: Button content [CHAR LIMIT=12] -->
     <string name="abc_cancel">Cancel</string>
+    <!-- description: Label to describe difficulty of an exercise [CHAR LIMIT=20] -->
+    <string name="abc_difficulty">Difficulty</string>
+
+    <!-- description: Records [CHAR LIMIT=12] -->
+    <string name="record_activity_title">Record</string>
+
+    <!-- description: Work outs [CHAR LIMIT=20] -->
+    <string name="sample_back_squat">Back squat</string>
 
     <!-- description: Welcome screen title -->
     <string name="wx_welcome_title">Welcome to WX</string>
