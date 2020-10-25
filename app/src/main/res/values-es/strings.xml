@@ -1,9 +1,6 @@
 <resources>
     <string name="abc_save">Save (es)</string>
     <string name="abc_cancel">Cancel (es)</string>
-    <string name="abc_difficulty">Difficulty (es)</string>
-    <string name="record_activity_title">Record (es)</string>
-    <string name="sample_back_squat">Back squat (es)</string>
     <string name="wx_welcome_title">Welcome to WX (es)</string>
     <string name="wx_welcome_summary">WX lets you register your Crossfit workouts anytime.\n\nJust choose the exercise, enter weight and that\u2019s it. (es)</string>
     <string name="wx_welcome_summary_addition">Let\u2019s WX help you to identify how the cookies 🍪 are being burned.\n🥵🔥🔥💪💪🥵\n😜😜 (es)</string>
@@ -16,7 +13,21 @@
     <string name="unit_header">Unit (es)</string>
     <string name="check_box_unit_title">Preferred Basic Unit (es)</string>
     <string name="check_box_unit_summary">Tap to select the desired unit (es)</string>
-    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff id="language" example="English, United States">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (es)</string>
+    <string name="main_activity_title">Workout (es)</string>
+    <string name="workout_added">New Workout added. (es)</string>
+    <plurals name="workout_quantity">
+        <item quantity="zero">%d workout (es)</item>
+        <item quantity="one">%d workout (es)</item>
+        <item quantity="other">%d workouts (es)</item>
+    </plurals>
+    <string-array name="workout_types">
+        <item>Back squat (es)</item>
+        <item>Front squat (es)</item>
+        <item>Snatch (es)</item>
+        <item>Pull up (es)</item>
+        <item>Burpee (es)</item>
+    </string-array>
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff example="English, United States" id="language">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (es)</string>
     <string name="yes">YES (es)</string>
     <string name="no">NO (es)</string>
 </resources>
