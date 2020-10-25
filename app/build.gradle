@@ -11,7 +11,7 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-        resConfigs "en", "en_XA", "ar_XB", "en_US", "en_GB", "es", "es_US", "es_419"
+        resConfigs "en", "en_XA", "ar_XB", "en_US", "en_GB", "es", "es_419"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -39,17 +39,18 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
-    implementation 'com.google.code.gson:gson:2.8.5'
-
-    // Enable support for AndroidX Preference
+    implementation 'androidx.core:core-ktx:1.3.2'
     implementation "androidx.preference:preference-ktx:1.1.1"
-    // Enable support for Lottie animations
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.android.material:material:1.3.0-alpha03'
 
     implementation 'com.airbnb.android:lottie:3.4.4'
+
     testImplementation 'junit:junit:4.12'
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 

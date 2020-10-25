@@ -31,8 +31,8 @@ class LocaleUtils {
         }
 
         fun setLocale(context: Context?): Context? {
-            if (context != null) {
-                val config = Configuration(context.resources.configuration)
+            context?.let {
+                val config = Configuration(it.resources.configuration)
 
                 val languageTag = WXApp.getCustomLocale()
                 val locale = if (languageTag == null) {
@@ -46,6 +46,7 @@ class LocaleUtils {
                     config.setLocale(locale)
                     config.setLayoutDirection(locale)
                 } else {
+                    @Suppress("DEPRECATION")
                     config.locale = locale;
                 }
 
@@ -58,7 +59,7 @@ class LocaleUtils {
                     return context
                 }
             }
-            return null
+            return context
         }
 
         private fun toSentenceCase(content: String): String {

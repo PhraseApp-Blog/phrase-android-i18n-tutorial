@@ -1,20 +1,4 @@
 <resources>
-    <string name="app_name" translatable="false">WX</string>
-
-    <!-- Generics -->
-    <!-- description: Button content [CHAR LIMIT=12] -->
-    <string name="abc_save">Save</string>
-    <!-- description: Button content [CHAR LIMIT=12] -->
-    <string name="abc_cancel">Cancel</string>
-    <!-- description: Label to describe difficulty of an exercise [CHAR LIMIT=20] -->
-    <string name="abc_difficulty">Difficulty</string>
-
-    <!-- description: Records [CHAR LIMIT=12] -->
-    <string name="record_activity_title">Record</string>
-
-    <!-- description: Work outs [CHAR LIMIT=20] -->
-    <string name="sample_back_squat">Back squat</string>
-
     <!-- description: Welcome screen title -->
     <string name="wx_welcome_title">Welcome to WX</string>
     <!-- description: Welcome screen summary -->
@@ -43,8 +27,34 @@
     <!-- description: Preference Header content -->
     <string name="check_box_unit_summary">Tap to select the desired unit</string>
 
+    <!-- description: Main activity title -->
+    <string name="main_activity_title">Workout</string>
 
-    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff id="language" example="English, United States">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted.</string>
+    <!-- description: Message toast when new workout is saved -->
+    <string name="workout_added">New Workout added.</string>
+
+    <!-- description: Summary text to display the quantity of workouts -->
+    <plurals name="workout_quantity">
+        <item quantity="zero">%d workout</item>
+        <item quantity="other">%d workouts</item>
+    </plurals>
+
+    <!-- description: Workouts [CHAR LIMIT=20] -->
+    <string-array name="workout_types">
+        <item>Back squat</item>
+        <item>Front squat</item>
+        <item>Snatch</item>
+        <item>Pull up</item>
+        <item>Burpee</item>
+    </string-array>
+
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff example="English, United States" id="language">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted.</string>
+    <!-- description: Dialog button - Affirmative option -->
     <string name="yes">YES</string>
+    <!-- description: Dialog button - Negative option -->
     <string name="no">NO</string>
+    <!-- description: Button content [CHAR LIMIT=12] -->
+    <string name="abc_save">Save</string>
+    <!-- description: Button content [CHAR LIMIT=12] -->
+    <string name="abc_cancel">Cancel</string>
 </resources>

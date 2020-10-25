@@ -1,6 +1,7 @@
-package com.phrase.android.wx.activity
+package com.phrase.android.wx.feature
 
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
 import android.icu.text.MeasureFormat
 import android.os.Build
@@ -13,7 +14,10 @@ import androidx.core.app.ActivityCompat.finishAffinity
 import androidx.preference.*
 import com.phrase.android.wx.R
 import com.phrase.android.wx.WXApp
+import com.phrase.android.wx.feature.main.MainActivity
+import com.phrase.android.wx.feature.record.RecordActivity
 import com.phrase.android.wx.utils.LocaleUtils
+import com.phrase.android.wx.widget.BaseActivity
 import java.util.*
 
 
@@ -23,6 +27,10 @@ class SettingsActivity : BaseActivity() {
         const val PREF_SWITCH_LANGUAGE = "custom_language_switch"
         const val PREF_DROPDOWN_CUSTOM_LANGUAGE = "custom_language"
         const val PREF_LIST_UNIT = "custom_unit"
+
+        fun launch(context: Context) {
+            context.startActivity(Intent(context, SettingsActivity::class.java))
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,12 +56,10 @@ class SettingsActivity : BaseActivity() {
     fun restart() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             finishAffinity()
-            val intent = Intent(applicationContext, RecordActivity::class.java)
-            startActivity(intent)
+            MainActivity.launch(this)
         } else {
             finishAffinity(this)
-            val intent = Intent(applicationContext, RecordActivity::class.java)
-            startActivity(intent)
+            MainActivity.launch(this)
         }
         // Alternative code
 //        val packageManager = context?.packageManager
@@ -89,6 +95,8 @@ class SettingsActivity : BaseActivity() {
             val unitEntries = mutableListOf<Int>(unitValues.size)
             for (i in unitValues.indices) {
                 unitValues[i] = mf.getUnitDisplayName(WXApp.DEFAULT_UNITS[i])
+                // Output: kilograms (en-US) | kilograms (en-GB), kilogramos (es-419), kilogramos (es)
+                // Output: pounds (en-US) | pounds (en-GB), libras (es-419), libras (es)
                 unitEntries.add(i)
             }
 

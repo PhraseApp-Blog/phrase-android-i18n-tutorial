@@ -4,20 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/activity"
-        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+    <!--    <TextView-->
+    <!--        android:id="@+id/activity"-->
+    <!--        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:text="@string/sample_back_squat" />-->
+
+    <Spinner
+        android:id="@+id/spinner_activity"
+        style="@style/Widget.AppCompat.Spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:text="@string/sample_back_squat" />
+        android:layout_marginTop="24dp" />
 
     <LinearLayout
         android:id="@+id/dateTimePanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/activity"
+        android:layout_below="@id/spinner_activity"
         android:layout_marginTop="25dp"
         android:orientation="vertical">
 
@@ -37,9 +45,9 @@
         <TextView
             android:id="@+id/datePicker"
             style="@style/DateTimeStyle"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:textAlignment="viewStart"
             tools:text="Sun, Oct 18" />
 
@@ -87,7 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:text="@string/abc_difficulty" />
+                tools:text="Difficulty" />
 
             <SeekBar
                 android:layout_width="match_parent"
