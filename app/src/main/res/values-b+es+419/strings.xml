@@ -1,0 +1,33 @@
+<resources>
+    <string name="abc_save">Save (es-419)</string>
+    <string name="abc_cancel">Cancel (es-419)</string>
+    <string name="wx_welcome_title">Welcome to WX (es-419)</string>
+    <string name="wx_welcome_summary">WX lets you register your Crossfit workouts anytime.\n\nJust choose the exercise, enter weight and that\u2019s it. (es-419)</string>
+    <string name="wx_welcome_summary_addition">Let\u2019s WX help you to identify how the cookies 🍪 are being burned.\n🥵🔥🔥💪💪🥵\n😜😜 (es-419)</string>
+    <string name="button_gotit">Got it (es-419)</string>
+    <string name="menu_action_settings">Settings (es-419)</string>
+    <string name="language_header">Language (es-419)</string>
+    <string name="custom_language">Use custom language (es-419)</string>
+    <string name="drop_down_custom_language_title">Custom Language (es-419)</string>
+    <string name="drop_down_custom_language_summary">Tap to select the desired language (es-419)</string>
+    <string name="unit_header">Unit (es-419)</string>
+    <string name="check_box_unit_title">Preferred Basic Unit (es-419)</string>
+    <string name="check_box_unit_summary">Tap to select the desired unit (es-419)</string>
+    <string name="main_activity_title">Workout (es-419)</string>
+    <string name="workout_added">New Workout added. (es-419)</string>
+    <plurals name="workout_quantity">
+        <item quantity="zero">%d workout (es-419)</item>
+        <item quantity="one">%d workout (es-419)</item>
+        <item quantity="other">%d workouts (es-419)</item>
+    </plurals>
+    <string-array name="workout_types">
+        <item>Back squat (es-419)</item>
+        <item>Front squat (es-419)</item>
+        <item>Snatch (es-419)</item>
+        <item>Pull up (es-419)</item>
+        <item>Burpee (es-419)</item>
+    </string-array>
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff example="English, United States" id="language">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (es-419)</string>
+    <string name="yes">YES (es-419)</string>
+    <string name="no">NO (es-419)</string>
+</resources>

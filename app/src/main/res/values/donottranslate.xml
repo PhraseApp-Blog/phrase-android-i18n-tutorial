@@ -1,0 +1,11 @@
+<resources>
+    <!-- Universal app name -->
+    <string name="app_name" translatable="false">WX</string>
+    <!-- List of supported languages - The user-visible content is defined via code through default ICU values -->
+    <string-array name="language_entries_values" translatable="false">
+        <item>en-US</item>
+        <item>en-GB</item>
+        <item>es</item>
+        <item>es-419</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="abc_save">Save (en-GB)</string>
+    <string name="abc_cancel">Cancel (en-GB)</string>
+    <string name="wx_welcome_title">Welcome to WX (en-GB)</string>
+    <string name="wx_welcome_summary">WX lets you register your Crossfit workouts anytime.\n\nJust choose the exercise, enter weight and that\u2019s it. (en-GB)</string>
+    <string name="wx_welcome_summary_addition">Let\u2019s WX help you to identify how the cookies 🍪 are being burned.\n🥵🔥🔥💪💪🥵\n😜😜 (en-GB)</string>
+    <string name="button_gotit">Got it (en-GB)</string>
+    <string name="menu_action_settings">Settings (en-GB)</string>
+    <string name="language_header">Language (en-GB)</string>
+    <string name="custom_language">Use custom language (en-GB)</string>
+    <string name="drop_down_custom_language_title">Custom Language (en-GB)</string>
+    <string name="drop_down_custom_language_summary">Tap to select the desired language (en-GB)</string>
+    <string name="unit_header">Unit (en-GB)</string>
+    <string name="check_box_unit_title">Preferred Basic Unit (en-GB)</string>
+    <string name="check_box_unit_summary">Tap to select the desired unit (en-GB)</string>
+    <string name="main_activity_title">Workout (en-GB)</string>
+    <string name="workout_added">New Workout added. (en-GB)</string>
+    <plurals name="workout_quantity">
+        <item quantity="zero">%d workout (en-GB)</item>
+        <item quantity="one">%d workout (en-GB)</item>
+        <item quantity="other">%d workouts (en-GB)</item>
+    </plurals>
+    <string-array name="workout_types">
+        <item>Back squat (en-GB)</item>
+        <item>Front squat (en-GB)</item>
+        <item>Snatch (en-GB)</item>
+        <item>Pull up (en-GB)</item>
+        <item>Burpee (en-GB)</item>
+    </string-array>
+    <string name="dialog_restart_app">Are you sure you want to change the language to <xliff id="language" example="English, United States">&lt;b>%1$s&lt;/b></xliff>?\n\nThe app will be restarted. (en-GB)</string>
+    <string name="yes">YES (en-GB)</string>
+    <string name="no">NO (en-GB)</string>
+</resources>
